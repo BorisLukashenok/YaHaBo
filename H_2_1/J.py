@@ -1,0 +1,6 @@
+v = input()
+c = input()
+print(f'Группа №{c[0]}.')
+print(f'{c[2]}. {v}.')
+print(f'Шкафчик: {c}.')
+print(f'Кроватка: {c[1]}.')

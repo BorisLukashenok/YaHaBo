@@ -1,0 +1,1 @@
+print(len([a for i in range(int(input())) if 'зайка' in (a := input())]))
