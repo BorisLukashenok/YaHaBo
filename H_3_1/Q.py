@@ -1,0 +1,1 @@
+print("YES" if (a := ''.join(input().lower().split())) == a[::-1] else "NO")
