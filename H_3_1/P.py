@@ -5,4 +5,4 @@ for i in range(int(input())):
 out = '\n'.join(s)
 t = out[:long - 3].count('\n')
 t = out[:long - 3 + t].count('\n')
-print(out[:long - 3 + t].rstrip('\n') + "...")
+print(out[:long - 3 + t] + "...")
