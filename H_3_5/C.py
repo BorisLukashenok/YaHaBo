@@ -1,4 +1,9 @@
 from sys import stdin
-
-for i in stdin:
-    t = i.rstrip('\n')
+sps = []
+for s in stdin:
+    if not s.startswith('#'):
+        if (temp := s.find('#')) == -1:
+            temp = len(s)
+        sps.append(s[:temp])
+for i in sps:
+    print(i.rstrip('\n'))
