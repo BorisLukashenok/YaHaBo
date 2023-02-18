@@ -1,0 +1,5 @@
+from math import gcd
+from sys import stdin
+
+for i in stdin.readlines():
+    print(gcd(*map(int, i.split())))
