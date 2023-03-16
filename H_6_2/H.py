@@ -3,7 +3,7 @@ import pandas as pd
 
 def update(df: pd.DataFrame):
     df['average'] = ((df['maths'] + df['physics'] + df['computer science']) / 3).round(1)
-    return df.sort_values(['average'], ascending=False)
+    return df.sort_values(['average', 'name'], ascending=False)
 
 
 columns = ['name', 'maths', 'physics', 'computer science']
